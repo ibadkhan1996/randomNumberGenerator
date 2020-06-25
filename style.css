@@ -1,0 +1,30 @@
+.main {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 20px;
+    margin-top: 20px;
+}
+h1 {
+    color: green;
+}
+p {
+    font-size: 32px;
+}
+button {
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 0px;
+    border: 1px solid rgb(197, 197, 197);
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: none;
+}
+button:active {
+    box-shadow: 0px 0px 2px 1px rgb(204, 204, 204);
+}
